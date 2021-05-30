@@ -1,0 +1,4 @@
+baseURL = "http://nothingtoteach.com"
+languageCode = "en-us"
+title = "Nothing to teach"
+theme = "tale"
