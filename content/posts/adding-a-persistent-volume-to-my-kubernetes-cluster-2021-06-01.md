@@ -107,7 +107,7 @@ I deleted my PVC. Then reapplied it:
 
 `kubectl apply -f nothing-pvc.yaml`
 
-I also redeployed the NGINX pod I was attaching the volume to. But are up and running now.
+I also redeployed the NGINX pod I was attaching the volume to. Both are up and running now.
 
 After mixing myself up by using the wrong claimName, changing it, deleting the pod I was trying to attach it to, then redeploying the pod, I finally got the volume to attach.
 
@@ -122,9 +122,15 @@ Events:
   Normal  Pulling    5s    kubelet            Pulling image "nginx"
 nothing % kubectl exec -it nginx-volume -- /bin/sh -c "ls /usr/share/nginx/html/files"
 lost+found
+
 nothing % kubectl cp ~/Desktop/plant_thing.JPG nginx-volume:/usr/share/nginx/html/files
+
 nothing % kubectl exec -it nginx-volume -- /bin/sh -c "ls /usr/share/nginx/html/files"
 lost+found  plant_thing.JPG
 ```
 
-![It's a plant.](/plant_thing.JPG)
+One last thing I had to do: adjust permissions on the image since I was getting a 403. Now it loads!
+
+![It's a plant.](/files/plant_thing.JPG)
+
+Next to figure out: why doing a rolling deployment causes new pods to be created that get stuck in `ContainerCreating` status. They're getting stuck because the volume is already attached to a pod. So I'm not sure how to get around that at the moment.
