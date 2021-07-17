@@ -34,7 +34,3 @@ I think it's interesting that he says the seal of liberation is "to no longer be
 > Nietzsche radicalizes a common secular thought that, in the absence of an afterlife, we must make the most of this life, for this life is all we have. Matters for him are more extreme: this life is _inescapable_. If its ending provides any solace to the weary, that solace is illusory, for as soon as you end this life you must (subjectively speaking) start it over again from the beginning. (xviii-xix)
 
 I'm not sure I'm totally understanding this yet, though it seems like the intro is getting at Nietzsche's "eternal recurrence". A thought experiment, that if there's no afterlife, we should be asking ourselves the questions: Am I affirming life completely? Is the life I'm living now worthy to be lived over and over again?
-
-
-
-Begs the question: "Is my life worthy to be lived over and over again.
