@@ -1,5 +1,6 @@
 ---
 title: "Traefik Ingress Issue With Port Binding"
+author: Joe Cardillo
 date: 2021-06-14T04:39:53-04:00
 draft: false
 ---
