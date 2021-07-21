@@ -11,17 +11,20 @@ Started reading Nietzsche's "The Joyous Science". Here are my notes/quotes from 
 
 It's easy to fear the process of "self-actualization", having grown up in a religious culture/environment. Because it means stepping outside of safety. Beyond what is known. However, self-actualization isn't possible without going on an individual journey. "Experimentation" is not encouraged in religious circles because it threatens the social safety net. There's also the "slippery slope" argument that's often put forth to discourage self-actualization.
 
-> 273
-> _Whom Do You Call Bad?_
-> Those who always want to put others to shame.
->
-> 274
-> _What Is Most Humane?_
-> To spare someone shame.
->
-> 275
-> _What is the Seal of Liberation?_
-> To no longer be ashamed of oneself. (xvi)
+> 273  
+> _Whom Do You Call Bad?_  
+>  
+> Those who always want to put others to shame.  
+
+> 274  
+> _What Is Most Humane?_  
+>  
+> To spare someone shame.  
+
+> 275  
+> _What is the Seal of Liberation?_  
+>  
+> To no longer be ashamed of oneself. (xvi)  
 
 Such simplicity.
 

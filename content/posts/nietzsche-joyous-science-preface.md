@@ -1,5 +1,5 @@
 ---
-title: "Nietzsche: Joyous Science - Preface"
+title: "Nietzsche: The Joyous Science - Preface"
 author: Joe Cardillo
 date: 2021-07-18T16:50:12-04:00
 draft: false
