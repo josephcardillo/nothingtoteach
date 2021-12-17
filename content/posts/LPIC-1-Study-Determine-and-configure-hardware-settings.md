@@ -2,7 +2,7 @@
 title: "LPIC 1 Study - Determine and Configure Hardware Settings"
 date: 2021-12-13T08:32:17-05:00
 author: Joe Cardillo
-draft: true
+draft: false 
 ---
 
 It's been a long time since I've needed to study for anything formal. Recently, though, my work made some positive changes regarding helping us gain more technical proficiency. As a result, I was prompted to start looking at the [learning material](https://learning.lpi.org/en/learning-materials/101-500/101/101.1/101.1_01/) for the LIPC 1. To be truthful, my eyes started glazing over when I realized it was about detecting PCI and USB devices. (It's a weird place to start, in my opinion. But what do I know?) Boring stuff, but necessary to get through. For now, I trust it will get more interesting as I get through it.
