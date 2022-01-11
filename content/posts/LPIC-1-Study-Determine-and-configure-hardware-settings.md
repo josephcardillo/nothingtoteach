@@ -11,7 +11,7 @@ Part of it is: I have a hard time with book learning. I do best with hands on ex
 
 [Section 101](https://learning.lpi.org/en/learning-materials/101-500/101/101.1/101.1_01/) is about device inspection. This is not something I need to deal with, or interact with, on a daily basis in my job. The basic concept, though, is that when a certain piece of hardware isn't detected by your operating system, you have to know how to troubleshoot it. Either the part, or where it's connected, are defective. Alternatively, if the particular piece of hardware is detected by the OS, but still doesn't work, there may be a problem on the OS side.
 
-I don't deal in hardware at the moment, which is maybe why this section probably felt abstract to me the first time through. But it's starting to make more sense. (It's still troubleshooting at the heart.)
+I don't deal in hardware at the moment, which is why this section probably felt abstract to me the first time through. But it's starting to make more sense. (It's still troubleshooting at heart.)
 
 
 ## lspci and lsusb
@@ -22,13 +22,13 @@ Two commands that can be used to identify connected devices in Linux are `lspci`
 
 `lsusb` - Lists USB (Universal Serial Bus) devices connected. Mostly used to connect input devices like keyboards, mouses, and removeable storage.
 
-There are two components to PCI and USB devices: software and hardware. The sotware component is called the kernel module.
+There are two components to PCI and USB devices: software and hardware. The software component is called the kernel module.
 
 When I run `lspci` on one of my Debian machines I get this.
 
 ![lspci1](/files/lspci1.png)
 
-The hexadecimal numbers at the beginning of each line are the unique addresses of each PCI device. If you use the `-s` option with `-v`, it gives more details about that specific device.
+The hexadecimal numbers at the beginning of each line are the unique addresses of each PCI device. If you use the `-s` option with `-v`, it gives more details about that specific device. `-v` for "verbose".
 
 ![lspci2](/files/lspci2.png)
 
@@ -38,3 +38,6 @@ This tells us the following information:
 * Device's brand and model - `Subsystem: Red Hat, Inc Virtio network device`
 * Kernel module - `Kernel driver in use: virtio-pci`
 
+You can use the `-k` option, too. According to man pages, this is turned on by default when `-v` is given.
+
+> Show kernel drivers handling each device and also kernel modules capable of handling it. Turned on by default when -v is given in the normal mode of output. (Currently works only on Linux with kernel 2.6 or newer.)
