@@ -131,6 +131,6 @@ lost+found  plant_thing.JPG
 
 One last thing I had to do: adjust permissions on the image since I was getting a 403. Now it loads!
 
-![It's a plant.](/files/plant_thing.JPG)
+![It's a plant.](/files/plant.jpeg)
 
 Next to figure out: why doing a rolling deployment causes new pods to be created that get stuck in `ContainerCreating` status. They're getting stuck because the volume is already attached to a pod. So I'm not sure how to get around that at the moment.
